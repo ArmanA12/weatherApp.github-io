@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comfortaa&family=Luxurious+Roman&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="all.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="styleseet" href="all.min.css">
+    <!--The CSS styling-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(rgb(105, 181, 187), rgb(26, 56, 110));
+            font-size: 2rem;
+            font-family: sans-serif;
+            color: rgb(7, 9, 10);
+        }
+
+        .container {
+            position: relative;
+            top: 35px;
+            left: 280px;
+            height: 20rem;
+            width: 17rem;
+            background-image: linear-gradient(rgb(108, 213, 231), rgb(25, 107, 117));
+            text-align: center;
+            padding-top: 12px;
+            border-radius: 16px;
+            border: 1px solid rgb(14, 43, 1);
+        }
+
+        #search {
+            left: 280px;
+            top: 400px;
+            position: relative;
+            font-size: 24px;
+            text-align: center;
+            width: 260px;
+            height: 36px;
+            border: 1px solid rgb(8, 8, 8);
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+            background: rgb(119, 197, 207);
+            color: rgb(10, 10, 10);
+
+        }
+
+        #search:hover {
+            background: rgb(197, 196, 194);
+            color: black;
+        }
+
+        .navbar {
+            top: -1px;
+            position: absolute;
+            height: 50px;
+            display: inline;
+            background: rgb(88, 88, 65);
+            width: 100%;
+
+        }
+
+        .navbar p {
+            position: relative;
+            display: inline-block;
+            top: -1px;
+            font-size: 24px;
+            color: rgb(186, 194, 151);
+            margin-left: 16px;
+            margin-top: 10px;
+            background: rgb(100, 98, 73);
+            border: 1px solid rgb(119, 128, 43);
+            cursor: pointer;
+            width: 124px;
+            height: 34px;
+            text-align: center;
+            border-radius: 100px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+
+        }
+
+        .navbar p:hover {
+            transition: 2s;
+            background-image: linear-gradient(to right,rgb(46, 45, 40),rgb(57, 85, 78));
+             border: none;
+            color: aliceblue;
+        }
+
+        .ri {
+            top: -1px;
+            position: absolute;
+            height: 50px;
+            display: inline;
+            background: rgb(88, 88, 65);
+
+        }
+
+        .ri p {
+            position: relative;
+            display: inline-block;
+            top: -1px;
+            font-size: 24px;
+            color: rgb(186, 194, 151);
+            margin-left: 5px;
+            left: 460px;
+            margin-top: 10px;
+            background: rgb(100, 98, 73);
+            border: 1px solid rgb(143, 153, 55);
+            cursor: pointer;
+            width: 124px;
+            height: 34px;
+            text-align: center;
+            border-radius: 100px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        }
+
+        .ri p:hover {
+            background-image: linear-gradient(to right,rgb(43, 38, 38) , rgb(15, 73, 51));
+            color: aliceblue;
+            border: none;
+            transition: 2s;
+        }
+
+        .para {
+            position: absolute;
+            left: 100px;
+            top: 120px;
+            font-family: 'Abril Fatface', cursive;
+
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+            font-size: 50px;
+            color: rgb(21, 22, 21);
+        }
+
+        #p {
+            position: absolute;
+            font-size: 30px;
+            left: 60px;
+            top: 210px;
+            font-family: 'Abril Fatface', cursive;
+
+        }
+
+        #pow {
+            position: absolute;
+            bottom: 20px;
+            left: 15px;
+            font-size: 23px;
+            color: rgb(202, 177, 145);
+            font-family: 'Abril Fatface', cursive;
+
+        }
+
+        #cloud {
+            color: rgb(235, 250, 244);
+            font-size: 100px;
+        }
+        .ri a{
+            text-decoration: none;
+            color: rgb(186,194,151);
+        }
+        .navbar a{
+            text-decoration: none;
+            color: rgb(186,194,151);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <p id="r"><i class="fas fa-house-user"></i>  home</i></p>
+        <p id="r"><i class="fas fa-address-book"></i> <a href="login.html">  Contact </a></p>
+        <p id="r"> <a href="login.html"> About us</a></p>
+    </div>
+    <div class="ri">
+        <p><i class="fas fa-user-circle"></i> <a href="login.html"> Login </a></p>
+        <p>Sign up</p>
+    </div>
+    <input type="text" id="search" placeholder="search">
+    <div class="para">
+        <h3> ! Welcome </h3>
+        <hr>
+    </div>
+    <div>
+        <p id="p"> Here check your area ecosystem status </p>
+    </div>
+
+    <div class="container">
+        <i id="cloud" class="fas fa-cloud-sun-rain"></i>
+        <div class="icon">---</div>
+        <div class="temp">-°C</div>
+        <div class="summary">----</div>
+        <div class="location"></div>
+    </div>
+    <p id="pow">
+        This application powered by Arman
+    </p>
+    <!--Linking the javascript code-->
+    <script src="script.js"></script>
+    <i class="fa fa-clouds-sun"></i>
+
+</body>
+
+
+</html>
