@@ -1,0 +1,56 @@
+body{
+     background: none;
+     
+}
+.container{
+     width: 100vw;
+    top: 500px;
+    left: 170px;
+}
+#search{
+    top: 870px;
+    left: 170px;
+}
+.para{
+    left:225px ;
+}
+#p{
+    top: 300px;
+    left:210px;
+    font-size: 40px;
+    height: auto;
+}
+#pow{
+    top: 1110px;
+    color: black;
+    left:250px;
+    font-size: 35px;
+}
+.navbar{
+     background: none;
+     overflow: auto;
+     width: 100vw;
+    
+     color: rgb(127, 130, 133);
+}
+.navbar p{
+    background: none;
+}
+.ri p{
+
+    background:none;
+    color: rgb(143, 144, 145);
+
+}
+.ri{
+    background: none;
+     left: 50px;
+}
+.login{
+    position:absolute;
+    left:1000px;
+    top: 1000px;
+}
+.contact{
+    top: 1000px;
+}

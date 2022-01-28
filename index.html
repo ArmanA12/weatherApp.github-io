@@ -10,6 +10,8 @@
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+        <link rel="stylesheet"  media="  screen and (max-width:1200px)" href="phone.css">
     <link rel="stylesheet" href="all.min.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -88,12 +90,12 @@
             color: rgb(186, 194, 151);
             margin-left: 16px;
             margin-top: 10px;
-            background: rgb(100, 98, 73);
-            border: 1px solid rgb(119, 128, 43);
+    
             cursor: pointer;
-            width: 124px;
+            width: 97px;
             height: 34px;
             text-align: center;
+
             border-radius: 100px;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 
@@ -123,12 +125,11 @@
             font-size: 24px;
             color: rgb(186, 194, 151);
             margin-left: 5px;
-            left: 460px;
+            left: 475px;
             margin-top: 10px;
-            background: rgb(100, 98, 73);
-            border: 1px solid rgb(143, 153, 55);
+    
             cursor: pointer;
-            width: 124px;
+            width: 85px;
             height: 34px;
             text-align: center;
             border-radius: 100px;
@@ -186,17 +187,24 @@
             text-decoration: none;
             color: rgb(186,194,151);
         }
+        @media (max-widht:300px){
+            .container{
+                display: block;
+                flex-wrap: wrap;
+            }
+            
+        }
     </style>
 </head>
 
 <body>
     <div class="navbar">
-        <p id="r"><i class="fas fa-house-user"></i>  home</i></p>
-        <p id="r"><i class="fas fa-address-book"></i> <a href="login.html">  Contact </a></p>
+        <p id="r">Home</i></p>
+        <p id="r"> <a href="login.html">  Contact </a></p>
         <p id="r"> <a href="login.html"> About us</a></p>
     </div>
     <div class="ri">
-        <p><i class="fas fa-user-circle"></i> <a href="login.html"> Login </a></p>
+        <p> <a href="login.html"> Login </a></p>
         <p>Sign up</p>
     </div>
     <input type="text" id="search" placeholder="search">
