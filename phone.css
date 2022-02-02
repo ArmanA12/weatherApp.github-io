@@ -6,6 +6,7 @@ body{
      width: 100vw;
     top: 500px;
     left: 170px;
+
 }
 #search{
     top: 870px;
@@ -19,6 +20,7 @@ body{
     left:210px;
     font-size: 40px;
     height: auto;
+
 }
 #pow{
     top: 1110px;
@@ -30,16 +32,15 @@ body{
      background: none;
      overflow: auto;
      width: 100vw;
-    
-     color: rgb(127, 130, 133);
 }
 .navbar p{
     background: none;
+
 }
 .ri p{
 
-    background:none;
-    color: rgb(143, 144, 145);
+    background:black;
+    color: white;
 
 }
 .ri{
@@ -52,5 +53,11 @@ body{
     top: 1000px;
 }
 .contact{
-    top: 1000px;
+    top: 1001px;
+}
+#r{
+    color: rgb(231, 225, 225);
+}
+#r{
+    background: rgb(14, 14, 13);
 }

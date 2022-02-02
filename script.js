@@ -34,7 +34,7 @@ if (navigator.geolocation) {
 		summary.textContent = data.weather[0].description;
 		loc.textContent = data.name + "," + data.sys.country;
 		let icon1 = data.weather[0].icon;
-		icon.innerHTML ="      ";
+		icon.innerHTML ="     ";
 		});
 	});
 }
